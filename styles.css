@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }  
+
+body {
+      padding: 10px;
+  }
+  .brand-header {
+      border-bottom: 3px solid black;
+  }
+.brand {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+}
+.quarter {
+    width: 25%;
+}
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+.half {
+    width: 50%;
+}
+.article-img {
+    width: 100%;
+}
+.three-quarter {
+    width: 75%;
+}
+.other-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.site-section-politics {
+    background-color: yellow;
+}
+.site-section-technology {
+    background-color: cyan;
+}
+.site-section-local {
+    background-color: rgb(98, 228, 98);
+}
+.site-section-opinion {
+    background-color: blue;
+}
+.site-section-sports {
+    background-color: plum;
+}
+.section-link {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #666;
+}
